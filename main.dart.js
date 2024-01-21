@@ -48104,9 +48104,11 @@ try{$.Zy().kC("customAlertMessage",["this is js code"])}catch(r){s=A.ao(r)
 A.uW().$1("eee: "+A.n(s))}},
 $S:0}
 A.We.prototype={
-$0(){var s,r
-try{$.Zy().kC("alertMessage",["this is js code"])}catch(r){s=A.ao(r)
-A.uW().$1("eee: "+A.n(s))}},
+$0(){var s,r,q,p
+try{s="this is a content"
+r="this is a title"
+$.Zy().kC("shareInWeb",[s,r])}catch(p){q=A.ao(p)
+A.uW().$1("eee: "+A.n(q))}},
 $S:0}
 A.Wf.prototype={
 $0(){var s,r
